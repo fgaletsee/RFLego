@@ -1,5 +1,5 @@
-(module SMA_Edge (layer F.Cu) (tedit 5C163003)
-  (fp_text reference REF** (at 2.54 5.715) (layer F.SilkS)
+(module SMA_Edge (layer F.Cu) (tedit 5C1640A8)
+  (fp_text reference REF** (at 2.1336 4.6482) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value SMA_Edge (at 1.27 6.35) (layer F.Fab) hide

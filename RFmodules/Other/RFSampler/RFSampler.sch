@@ -1,0 +1,135 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RFLego_Schematic:SMA J3
+U 1 1 5C1642C6
+P 7450 3750
+F 0 "J3" H 7550 3704 50  0000 L CNN
+F 1 "SMA" H 7570 3490 50  0001 C CNN
+F 2 "RFLego_Footprint:SMA_Edge" H 7450 3448 50  0001 C CNN
+F 3 "" H 7450 3448 50  0001 C CNN
+	1    7450 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5C16441D
+P 6700 3900
+F 0 "#PWR02" H 6700 3650 50  0001 C CNN
+F 1 "GND" H 6705 3727 50  0000 C CNN
+F 2 "" H 6700 3900 50  0001 C CNN
+F 3 "" H 6700 3900 50  0001 C CNN
+	1    6700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5C164435
+P 7450 3900
+F 0 "#PWR04" H 7450 3650 50  0001 C CNN
+F 1 "GND" H 7455 3727 50  0000 C CNN
+F 2 "" H 7450 3900 50  0001 C CNN
+F 3 "" H 7450 3900 50  0001 C CNN
+	1    7450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5C164446
+P 6700 3400
+F 0 "#PWR01" H 6700 3150 50  0001 C CNN
+F 1 "GND" H 6705 3227 50  0000 C CNN
+F 2 "" H 6700 3400 50  0001 C CNN
+F 3 "" H 6700 3400 50  0001 C CNN
+	1    6700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5C164485
+P 7150 3600
+F 0 "R2" H 7220 3646 50  0000 L CNN
+F 1 "5k" H 7220 3555 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7080 3600 50  0001 C CNN
+F 3 "~" H 7150 3600 50  0001 C CNN
+	1    7150 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5C1644DF
+P 7150 3250
+F 0 "R1" H 7220 3296 50  0000 L CNN
+F 1 "50" H 7220 3205 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7080 3250 50  0001 C CNN
+F 3 "~" H 7150 3250 50  0001 C CNN
+	1    7150 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5C164503
+P 7150 3100
+F 0 "#PWR03" H 7150 2850 50  0001 C CNN
+F 1 "GND" H 7155 2927 50  0000 C CNN
+F 2 "" H 7150 3100 50  0001 C CNN
+F 3 "" H 7150 3100 50  0001 C CNN
+	1    7150 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7150 3400 7150 3450
+Wire Wire Line
+	7350 3750 7150 3750
+Connection ~ 7150 3750
+Wire Wire Line
+	6850 3300 6950 3300
+Wire Wire Line
+	6950 3300 6950 3450
+Wire Wire Line
+	6950 3450 7150 3450
+Connection ~ 7150 3450
+Text Notes 7050 2750 0    50   ~ 0
+-40dB RF Sampler\n
+$Comp
+L RFLego_Schematic:SMA J2
+U 1 1 5C164A7C
+P 6700 3750
+F 0 "J2" H 6680 3894 50  0000 C CNN
+F 1 "SMA" H 6820 3490 50  0001 C CNN
+F 2 "RFLego_Footprint:SMA_Edge" H 6700 3448 50  0001 C CNN
+F 3 "" H 6700 3448 50  0001 C CNN
+	1    6700 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3750 7150 3750
+$Comp
+L RFLego_Schematic:SMA J1
+U 1 1 5C164C35
+P 6700 3250
+F 0 "J1" H 6680 3394 50  0000 C CNN
+F 1 "SMA" H 6820 2990 50  0001 C CNN
+F 2 "RFLego_Footprint:SMA_Edge" H 6700 2948 50  0001 C CNN
+F 3 "" H 6700 2948 50  0001 C CNN
+	1    6700 3250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3250 6850 3250
+Wire Wire Line
+	6850 3250 6850 3300
+$EndSCHEMATC
