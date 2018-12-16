@@ -24,7 +24,7 @@ gerber_types = [
     {'from': '-Edge.Cuts.gbr', 'to': '.GKO'},
     {'from': '-F.Paste.gbr',   'to': '.GTP'},
     {'from': '-B.Paste.gbr',   'to': '.GBP'},
-    {'from': '.drl',           'to': '.TXT'},
+    {'from': '-PTH.drl',           'to': '.TXT'},
 ]
 
 # Rename files depending upon their names.
