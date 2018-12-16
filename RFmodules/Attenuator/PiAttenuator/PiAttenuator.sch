@@ -1,0 +1,126 @@
+EESchema Schematic File Version 4
+LIBS:PiAttenuator-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 5C1630BE
+P 6500 4100
+F 0 "R1" H 6570 4146 50  0000 L CNN
+F 1 "R" H 6570 4055 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6430 4100 50  0001 C CNN
+F 3 "~" H 6500 4100 50  0001 C CNN
+	1    6500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5C163136
+P 6750 3950
+F 0 "R2" V 6543 3950 50  0000 C CNN
+F 1 "R" V 6634 3950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6680 3950 50  0001 C CNN
+F 3 "~" H 6750 3950 50  0001 C CNN
+	1    6750 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5C16317D
+P 7000 4100
+F 0 "R3" H 7070 4146 50  0000 L CNN
+F 1 "R" H 7070 4055 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6930 4100 50  0001 C CNN
+F 3 "~" H 7000 4100 50  0001 C CNN
+	1    7000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5C1631E7
+P 6500 4250
+F 0 "#PWR02" H 6500 4000 50  0001 C CNN
+F 1 "GND" H 6505 4077 50  0000 C CNN
+F 2 "" H 6500 4250 50  0001 C CNN
+F 3 "" H 6500 4250 50  0001 C CNN
+	1    6500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5C1631FF
+P 7000 4250
+F 0 "#PWR03" H 7000 4000 50  0001 C CNN
+F 1 "GND" H 7005 4077 50  0000 C CNN
+F 2 "" H 7000 4250 50  0001 C CNN
+F 3 "" H 7000 4250 50  0001 C CNN
+	1    7000 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3950 6500 3950
+Wire Wire Line
+	6500 3950 6600 3950
+Connection ~ 6500 3950
+Wire Wire Line
+	6900 3950 7000 3950
+Wire Wire Line
+	7000 3950 7300 3950
+Connection ~ 7000 3950
+$Comp
+L power:GND #PWR01
+U 1 1 5C163406
+P 6200 4100
+F 0 "#PWR01" H 6200 3850 50  0001 C CNN
+F 1 "GND" H 6205 3927 50  0000 C CNN
+F 2 "" H 6200 4100 50  0001 C CNN
+F 3 "" H 6200 4100 50  0001 C CNN
+	1    6200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5C16341B
+P 7400 4100
+F 0 "#PWR04" H 7400 3850 50  0001 C CNN
+F 1 "GND" H 7405 3927 50  0000 C CNN
+F 2 "" H 7400 4100 50  0001 C CNN
+F 3 "" H 7400 4100 50  0001 C CNN
+	1    7400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L RFLego_Schematic:SMA J?
+U 1 1 5C163D61
+P 7400 3950
+F 0 "J?" H 7500 3904 50  0000 L CNN
+F 1 "SMA" H 7520 3690 50  0001 C CNN
+F 2 "RFLego_Footprint:SMA_Edge" H 7400 3648 50  0001 C CNN
+F 3 "" H 7400 3648 50  0001 C CNN
+	1    7400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L RFLego_Schematic:SMA J?
+U 1 1 5C163E47
+P 6200 3950
+F 0 "J?" H 6180 4094 50  0000 C CNN
+F 1 "SMA" H 6320 3690 50  0001 C CNN
+F 2 "RFLego_Footprint:SMA_Edge" H 6200 3648 50  0001 C CNN
+F 3 "" H 6200 3648 50  0001 C CNN
+	1    6200 3950
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC
