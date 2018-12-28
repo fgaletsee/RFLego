@@ -88,7 +88,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "/home/argos/Documents/Projekte/Kicad/RFLego/RFmodules/Filter/Saw/868MHz/Gerber/"))
+      (outputdirectory "Gerber/"))
   )
 
   (net 0 "")
@@ -228,7 +228,7 @@
   (segment (start 105.525 99.695) (end 105.652 99.822) (width 0.2032) (layer F.Cu) (net 3))
   (segment (start 100.995 99.695) (end 105.525 99.695) (width 0.2032) (layer F.Cu) (net 3))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5C1668A3) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5C1669E9) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -293,7 +293,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5C1668A0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5C1669E6) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
