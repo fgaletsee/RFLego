@@ -1,0 +1,86 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RFLego_Schematic:SMA J2
+U 1 1 5C4FC6E7
+P 6750 3700
+F 0 "J2" H 6850 3654 50  0000 L CNN
+F 1 "SMA" H 6870 3440 50  0001 C CNN
+F 2 "RFLego_Footprint:SMA_Edge" H 6750 3398 50  0001 C CNN
+F 3 "" H 6750 3398 50  0001 C CNN
+	1    6750 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L RFLego_Schematic:SMA J1
+U 1 1 5C4FC871
+P 5800 3700
+F 0 "J1" H 5780 3844 50  0000 C CNN
+F 1 "SMA" H 5920 3440 50  0001 C CNN
+F 2 "RFLego_Footprint:SMA_Edge" H 5800 3398 50  0001 C CNN
+F 3 "" H 5800 3398 50  0001 C CNN
+	1    5800 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L RFLego_Schematic:SAW F1
+U 1 1 5C4FC8DE
+P 6200 3900
+F 0 "F1" H 6300 4325 50  0000 C CNN
+F 1 "SF2136E" H 6300 4234 50  0000 C CNN
+F 2 "RFLego_Footprint:SM3030-6" H 6200 3900 50  0001 C CNN
+F 3 "" H 6200 3900 50  0001 C CNN
+	1    6200 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3700 6500 3700
+Wire Wire Line
+	6100 3700 5900 3700
+$Comp
+L power:GND #PWR02
+U 1 1 5C4FC98E
+P 6300 4050
+F 0 "#PWR02" H 6300 3800 50  0001 C CNN
+F 1 "GND" H 6305 3877 50  0000 C CNN
+F 2 "" H 6300 4050 50  0001 C CNN
+F 3 "" H 6300 4050 50  0001 C CNN
+	1    6300 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5C4FC9A6
+P 6750 3850
+F 0 "#PWR03" H 6750 3600 50  0001 C CNN
+F 1 "GND" H 6755 3677 50  0000 C CNN
+F 2 "" H 6750 3850 50  0001 C CNN
+F 3 "" H 6750 3850 50  0001 C CNN
+	1    6750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5C4FC9B7
+P 5800 3850
+F 0 "#PWR01" H 5800 3600 50  0001 C CNN
+F 1 "GND" H 5805 3677 50  0000 C CNN
+F 2 "" H 5800 3850 50  0001 C CNN
+F 3 "" H 5800 3850 50  0001 C CNN
+	1    5800 3850
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
