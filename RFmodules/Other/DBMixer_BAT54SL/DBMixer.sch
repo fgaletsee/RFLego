@@ -1,0 +1,206 @@
+EESchema Schematic File Version 4
+LIBS:DBMixer-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RFLego_Schematic:T U1
+U 1 1 5C4F7280
+P 4100 4500
+F 0 "U1" H 4100 5386 50  0000 C CNN
+F 1 "T" H 4100 5295 50  0000 C CNN
+F 2 "RFLego_Footprint:Coilcraft_WBC" H 4100 4500 50  0001 C CNN
+F 3 "" H 4100 4500 50  0001 C CNN
+	1    4100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L RFLego_Schematic:T U2
+U 1 1 5C4F736C
+P 6900 4500
+F 0 "U2" H 6900 5386 50  0000 C CNN
+F 1 "T" H 6900 5295 50  0000 C CNN
+F 2 "RFLego_Footprint:Coilcraft_WBC" H 6900 4500 50  0001 C CNN
+F 3 "" H 6900 4500 50  0001 C CNN
+	1    6900 4500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5C4F74EF
+P 4500 4150
+F 0 "#PWR03" H 4500 3900 50  0001 C CNN
+F 1 "GND" V 4505 4022 50  0000 R CNN
+F 2 "" H 4500 4150 50  0001 C CNN
+F 3 "" H 4500 4150 50  0001 C CNN
+	1    4500 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5C4F7510
+P 3700 4350
+F 0 "#PWR02" H 3700 4100 50  0001 C CNN
+F 1 "GND" H 3705 4177 50  0000 C CNN
+F 2 "" H 3700 4350 50  0001 C CNN
+F 3 "" H 3700 4350 50  0001 C CNN
+	1    3700 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5C4F75B3
+P 7300 4350
+F 0 "#PWR05" H 7300 4100 50  0001 C CNN
+F 1 "GND" H 7305 4177 50  0000 C CNN
+F 2 "" H 7300 4350 50  0001 C CNN
+F 3 "" H 7300 4350 50  0001 C CNN
+	1    7300 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L RFLego_Schematic:SMA J3
+U 1 1 5C4F760A
+P 7850 3950
+F 0 "J3" H 7950 3904 50  0000 L CNN
+F 1 "SMA" H 7970 3690 50  0001 C CNN
+F 2 "RFLego_Footprint:SMA_Edge" H 7850 3648 50  0001 C CNN
+F 3 "" H 7850 3648 50  0001 C CNN
+	1    7850 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L RFLego_Schematic:SMA J2
+U 1 1 5C4F76BD
+P 6650 4600
+F 0 "J2" H 6750 4554 50  0000 L CNN
+F 1 "SMA" H 6770 4340 50  0001 C CNN
+F 2 "RFLego_Footprint:SMA_Edge" H 6650 4298 50  0001 C CNN
+F 3 "" H 6650 4298 50  0001 C CNN
+	1    6650 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L RFLego_Schematic:SMA J1
+U 1 1 5C4F7739
+P 3300 3950
+F 0 "J1" H 3280 4094 50  0000 C CNN
+F 1 "SMA" H 3420 3690 50  0001 C CNN
+F 2 "RFLego_Footprint:SMA_Edge" H 3300 3648 50  0001 C CNN
+F 3 "" H 3300 3648 50  0001 C CNN
+	1    3300 3950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 4150 6350 4150
+Wire Wire Line
+	6350 4150 6350 4600
+Wire Wire Line
+	6350 4600 6550 4600
+Wire Wire Line
+	7750 3950 7300 3950
+Wire Wire Line
+	3400 3950 3700 3950
+$Comp
+L power:GND #PWR01
+U 1 1 5C4F89D5
+P 3300 4100
+F 0 "#PWR01" H 3300 3850 50  0001 C CNN
+F 1 "GND" H 3305 3927 50  0000 C CNN
+F 2 "" H 3300 4100 50  0001 C CNN
+F 3 "" H 3300 4100 50  0001 C CNN
+	1    3300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5C4F8A5E
+P 7850 4100
+F 0 "#PWR06" H 7850 3850 50  0001 C CNN
+F 1 "GND" H 7855 3927 50  0000 C CNN
+F 2 "" H 7850 4100 50  0001 C CNN
+F 3 "" H 7850 4100 50  0001 C CNN
+	1    7850 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5C4F8A7B
+P 6650 4750
+F 0 "#PWR04" H 6650 4500 50  0001 C CNN
+F 1 "GND" H 6655 4577 50  0000 C CNN
+F 2 "" H 6650 4750 50  0001 C CNN
+F 3 "" H 6650 4750 50  0001 C CNN
+	1    6650 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT54S D1
+U 1 1 5C4F9205
+P 5500 4050
+F 0 "D1" H 5500 4182 50  0000 C CNN
+F 1 "BAT54S" H 5500 4273 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5575 4175 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 5380 4050 50  0001 C CNN
+	1    5500 4050
+	1    0    0    1   
+$EndComp
+$Comp
+L Diode:BAT54S D2
+U 1 1 5C4F93C5
+P 5500 4200
+F 0 "D2" H 5500 4425 50  0000 C CNN
+F 1 "BAT54S" H 5500 4334 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5575 4325 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 5380 4200 50  0001 C CNN
+	1    5500 4200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4050 5800 4100
+Wire Wire Line
+	5200 4050 5200 4150
+Wire Wire Line
+	5500 4400 4550 4400
+Wire Wire Line
+	4550 4400 4550 4350
+Wire Wire Line
+	4550 4350 4500 4350
+Wire Wire Line
+	4500 3950 4550 3950
+Wire Wire Line
+	4550 3950 4550 3850
+Wire Wire Line
+	4550 3850 5500 3850
+Wire Wire Line
+	5200 4150 5100 4150
+Wire Wire Line
+	5100 4150 5100 3800
+Wire Wire Line
+	5100 3800 6500 3800
+Wire Wire Line
+	6500 3800 6500 3950
+Connection ~ 5200 4150
+Wire Wire Line
+	5200 4150 5200 4200
+Wire Wire Line
+	5800 4100 6100 4100
+Wire Wire Line
+	6100 4100 6100 4350
+Wire Wire Line
+	6100 4350 6500 4350
+Connection ~ 5800 4100
+Wire Wire Line
+	5800 4100 5800 4200
+$EndSCHEMATC
