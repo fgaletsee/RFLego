@@ -1,0 +1,10 @@
+dist: xenial
+language: python
+
+before_install:
+  - sudo add-apt-repository --yes ppa:js-reynaud/kicad-5
+  - sudo apt update
+  - sudo apt install kicad kicad-libraries kicad-symbols kicad-templates kicad-footprints kicad-packages3d
+
+script:
+  - make
