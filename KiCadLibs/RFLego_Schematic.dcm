@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Filter
+F https://www.mouser.de/datasheet/2/400/f_bpf_dea162450bt-1295a1_en-1289373.pdf
+$ENDCMP
+#
 #End Doc Library
