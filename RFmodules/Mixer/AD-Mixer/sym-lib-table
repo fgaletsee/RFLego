@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Mischer)(type Legacy)(uri C:/Users/argos/Desktop/Mischer.lib)(options "")(descr ""))
+  (lib (name RFLego_Schematic)(type Legacy)(uri C:/Users/argos/Documents/git/RFLego/KiCadLibs/RFLego_Schematic.lib)(options "")(descr ""))
+)

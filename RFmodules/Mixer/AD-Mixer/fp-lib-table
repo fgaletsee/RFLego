@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name MixerTutorial)(type KiCad)(uri C:/Users/argos/Desktop/MixerTutorial.pretty)(options "")(descr ""))
+  (lib (name RFLego_Footprint)(type KiCad)(uri C:/Users/argos/Documents/git/RFLego/KiCadLibs/RFLego_Footprint.pretty)(options "")(descr ""))
+)
