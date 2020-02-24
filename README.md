@@ -1,4 +1,5 @@
 # RFLego
+![Create Gerber Files](https://github.com/fgaletsee/RFLego/workflows/Create%20Gerber%20Files/badge.svg)
 
 Collection of many different RF components which can be combined, like Lego.
 
