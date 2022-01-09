@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BAT15-04W
+D Dual schottky barrier diode, in series, SOT-323
+K dual schottky diode
+F https://www.mouser.de/datasheet/2/196/Infineon_BAT15_04W_DS_v01_00_EN-1840611.pdf
+$ENDCMP
+#
+#End Doc Library
