@@ -10,7 +10,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Install dependencies
       run: |
-        sudo add-apt-repository --yes ppa:kicad/kicad-6.0-releases
+        sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases
         sudo apt-get update
         sudo apt-get install --yes kicad kicad-libraries kicad-symbols kicad-templates kicad-footprints kicad-packages3d
     - name: Create gerber files
